@@ -1,0 +1,241 @@
+<html><head><meta charset='utf-8'><title>Data Report</title>
+    <style>
+    body{font-family: Arial, Helvetica, sans-serif; margin:20px}
+    .container{max-width:1100px;margin:0 auto}
+    h1,h2{color:#333}
+    table{width:100%;border-collapse:collapse;margin-bottom:20px}
+    table th, table td{border:1px solid #ddd;padding:8px}
+    .plots img{max-width:100%;height:auto;margin-bottom:12px}
+    nav a{margin-right:12px}
+    </style>
+    </head><body>
+<div class="container">
+<h1>Data Report</h1>
+<nav><a href="#numeric">Numeric Summary</a><a href="#categorical">Categorical Summary</a><a href="#plots">Plots</a><a href="#correlation">Correlation</a></nav>
+<section id="numeric"><h2>Numeric Summary</h2>
+<table border="1" class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>count</th>
+      <th>missing</th>
+      <th>missing_pct</th>
+      <th>mean</th>
+      <th>median</th>
+      <th>std</th>
+      <th>min</th>
+      <th>p25</th>
+      <th>p50</th>
+      <th>p75</th>
+      <th>max</th>
+      <th>skewness</th>
+      <th>kurtosis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>PassengerId</th>
+      <td>577</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>450.590988</td>
+      <td>455.0000</td>
+      <td>259.568357</td>
+      <td>1.0</td>
+      <td>222.000</td>
+      <td>455.0000</td>
+      <td>676.00</td>
+      <td>891.000</td>
+      <td>-0.028495</td>
+      <td>-1.210327</td>
+    </tr>
+    <tr>
+      <th>Pclass</th>
+      <td>577</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>2.502600</td>
+      <td>3.0000</td>
+      <td>0.733909</td>
+      <td>1.0</td>
+      <td>2.000</td>
+      <td>3.0000</td>
+      <td>3.00</td>
+      <td>3.000</td>
+      <td>-1.106396</td>
+      <td>-0.272443</td>
+    </tr>
+    <tr>
+      <th>Age</th>
+      <td>577</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>29.742288</td>
+      <td>29.7000</td>
+      <td>8.516996</td>
+      <td>5.0</td>
+      <td>24.000</td>
+      <td>29.7000</td>
+      <td>32.50</td>
+      <td>54.000</td>
+      <td>0.651049</td>
+      <td>0.527036</td>
+    </tr>
+    <tr>
+      <th>SibSp</th>
+      <td>577</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.199307</td>
+      <td>0.0000</td>
+      <td>0.445034</td>
+      <td>0.0</td>
+      <td>0.000</td>
+      <td>0.0000</td>
+      <td>0.00</td>
+      <td>2.000</td>
+      <td>2.139041</td>
+      <td>3.899491</td>
+    </tr>
+    <tr>
+      <th>Parch</th>
+      <td>577</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+      <td>0.0000</td>
+      <td>0.000000</td>
+      <td>0.0</td>
+      <td>0.000</td>
+      <td>0.0000</td>
+      <td>0.00</td>
+      <td>0.000</td>
+      <td>0.000000</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>Fare</th>
+      <td>577</td>
+      <td>0</td>
+      <td>0.0</td>
+      <td>14.926356</td>
+      <td>8.6625</td>
+      <td>12.606521</td>
+      <td>0.0</td>
+      <td>7.775</td>
+      <td>8.6625</td>
+      <td>15.85</td>
+      <td>61.175</td>
+      <td>1.994894</td>
+      <td>3.478944</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<section id="categorical"><h2>Categorical Summary</h2>
+<table border="1" class="dataframe table table-striped">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Name</th>
+      <th>Sex</th>
+      <th>Ticket</th>
+      <th>Cabin</th>
+      <th>Embarked</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>577</td>
+      <td>577</td>
+      <td>577</td>
+      <td>577</td>
+      <td>577</td>
+    </tr>
+    <tr>
+      <th>unique</th>
+      <td>577</td>
+      <td>2</td>
+      <td>527</td>
+      <td>62</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>top</th>
+      <td>Braund, Mr. Owen Harris</td>
+      <td>male</td>
+      <td>1601</td>
+      <td>Unknown</td>
+      <td>S</td>
+    </tr>
+    <tr>
+      <th>freq</th>
+      <td>1</td>
+      <td>434</td>
+      <td>7</td>
+      <td>499</td>
+      <td>433</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<section id="plots"><h2>Numeric Feature Plots</h2><div class="plots">
+<figure>
+  <img src="plots/fare_hist.png" alt="Fare histogram">
+  <figcaption><strong>Fare distribution:</strong> Right-skewed with many low fares and a long tail of high fares (see log version below).</figcaption>
+</figure>
+<figure>
+  <img src="plots/fare_hist_log.png" alt="Log Fare histogram">
+  <figcaption><strong>Log(Fare + 1):</strong> Log-transformed fare shows a more symmetric distribution useful for modeling.</figcaption>
+</figure>
+<figure>
+  <img src="plots/age_by_survived.png" alt="Age by Survived">
+  <figcaption><strong>Age by Survived:</strong> Survivors appear slightly younger on average; Age has moderate spread and some outliers.</figcaption>
+</figure>
+<figure>
+  <img src="plots/corr_heatmap.png" alt="Correlation heatmap">
+  <figcaption><strong>Correlation matrix:</strong> Pclass and Fare are moderately correlated; family-size components (SibSp/Parch) correlate with each other; Pclass and Fare relate to Survival.</figcaption>
+</figure>
+</div></section>
+<section id="cat_plots"><h2>Categorical Plots</h2>
+<div class="plots">
+<figure>
+  <img src="plots/Sex_by_Survived.png" alt="Sex by Survived">
+  <figcaption><strong>Sex by Survived:</strong> Females have a noticeably higher survival rate than males (visual stacked counts).</figcaption>
+</figure>
+<figure>
+  <img src="plots/Embarked_by_Survived.png" alt="Embarked by Survived">
+  <figcaption><strong>Embarked by Survived:</strong> Survival varies by embarkation port; consider encoding Embarked as a categorical feature.</figcaption>
+</figure>
+</div>
+</section>
+<section id="correlation"><h2>Correlation Heatmap</h2>
+<img src="plots/corr_heatmap.png" alt="correlation heatmap">
+</section>
+<!-- Model summary inserted below -->
+<section id="model_summary">
+  <h2>Model summary</h2>
+  <h3>Cross-validated metrics</h3>
+  <table border="1" style="width:40%">
+    <tr><th>Accuracy</th><th>Precision</th><th>Recall</th><th>F1</th><th>ROC AUC</th></tr>
+    <tr><td>0.829</td><td>0.788</td><td>0.760</td><td>0.774</td><td>0.874</td></tr>
+  </table>
+  <h3>Top coefficients</h3>
+  <table border="1" style="width:60%"><tr><th>Feature</th><th>Coef</th></tr>
+    <tr><td>Title_Master</td><td>1.6644</td></tr>
+    <tr><td>Sex_female</td><td>1.2609</td></tr>
+    <tr><td>Title_Mr</td><td>-1.0644</td></tr>
+    <tr><td>Deck_E</td><td>0.9147</td></tr>
+    <tr><td>Pclass_1</td><td>0.6973</td></tr>
+    <tr><td>Title_Mrs</td><td>0.6885</td></tr>
+    <tr><td>Deck_D</td><td>0.6188</td></tr>
+    <tr><td>Sex_male</td><td>-0.5889</td></tr>
+    <tr><td>family_size</td><td>-0.5209</td></tr>
+    <tr><td>Deck_U</td><td>-0.5031</td></tr>
+  </table>
+  <h3>Feature importance</h3>
+  <img src="plots/feature_importance.png" alt="feature importance">
+</section>
+<!-- Additional EDA section removed: only main plots are shown above. Extra plots are still available in the plots/ directory. -->
+</div></body></html>

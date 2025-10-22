@@ -1,0 +1,892 @@
+PassengerId,Survived,Name,Age,log_fare,family_size,is_alone,Sex_female,Sex_male,Embarked_C,Embarked_Missing,Embarked_Q,Embarked_S,Pclass_1,Pclass_2,Pclass_3,Title_Master,Title_Miss,Title_Mr,Title_Mrs,Title_Rare,Deck_A,Deck_B,Deck_C,Deck_D,Deck_E,Deck_F,Deck_G,Deck_T,Deck_U
+1,0,"Braund, Mr. Owen Harris",22.0,2.1102132003465894,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+2,1,"Cumings, Mrs. John Bradley (Florence Briggs Thayer)",38.0,4.2805931204649,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+3,1,"Heikkinen, Miss. Laina",26.0,2.188856327665703,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+4,1,"Futrelle, Mrs. Jacques Heath (Lily May Peel)",35.0,3.9908341858524357,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+5,0,"Allen, Mr. William Henry",35.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+6,0,"Moran, Mr. James",26.0,2.246892662898172,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+7,0,"McCarthy, Mr. Timothy J",54.0,3.967694202798607,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+8,0,"Palsson, Master. Gosta Leonard",2.0,3.0944457464900235,5,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+9,1,"Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",27.0,2.495953738718064,3,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+10,1,"Nasser, Mrs. Nicholas (Adele Achem)",14.0,3.436268471383741,2,0,True,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+11,1,"Sandstrom, Miss. Marguerite Rut",4.0,2.8735646395797834,3,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,True,False,False
+12,1,"Bonnell, Miss. Elizabeth",58.0,3.3160025355989236,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+13,0,"Saundercock, Mr. William Henry",20.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+14,0,"Andersson, Mr. Anders Johan",39.0,3.4742929367327062,7,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+15,0,"Vestrom, Miss. Hulda Amanda Adolfina",14.0,2.180891922715322,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+16,1,"Hewlett, Mrs. (Mary D Kingcome) ",55.0,2.833213344056216,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+17,0,"Rice, Master. Eugene",2.0,3.405355391810819,6,0,False,True,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+18,1,"Williams, Mr. Charles Eugene",31.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+19,0,"Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",31.0,2.9444389791664403,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+20,1,"Masselmani, Mrs. Fatima",31.0,2.1071782966514356,1,1,True,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+21,0,"Fynney, Mr. Joseph J",35.0,3.295836866004329,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+22,1,"Beesley, Mr. Lawrence",34.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+23,1,"McGowan, Miss. Anna ""Annie""",15.0,2.2004637699272855,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+24,1,"Sloper, Mr. William Thompson",28.0,3.597312260588446,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+25,0,"Palsson, Miss. Torborg Danira",8.0,3.0944457464900235,5,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+26,1,"Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",38.0,3.4777725458882283,7,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+27,0,"Emir, Mr. Farred Chehab",26.0,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+28,0,"Fortune, Mr. Charles Alexander",19.0,5.575949103146316,6,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+29,1,"O'Dwyer, Miss. Ellen ""Nellie""",18.0,2.1837114628556327,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+30,0,"Todoroff, Mr. Lalio",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+31,0,"Uruchurtu, Don. Manuel E",40.0,3.357621598945279,1,1,False,True,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+32,1,"Spencer, Mrs. William Augustus (Marie Eugenie)",41.5,4.993969182787072,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+33,1,"Glynn, Miss. Mary Agatha",18.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+34,0,"Wheadon, Mr. Edward H",66.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+35,0,"Meyer, Mr. Edgar Joseph",28.0,4.420896324687287,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+36,0,"Holverson, Mr. Alexander Oskar",42.0,3.970291913552122,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+37,1,"Mamee, Mr. Hanna",26.0,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+38,0,"Cann, Mr. Ernest Charles",21.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+39,0,"Vander Planke, Miss. Augusta Maria",18.0,2.9444389791664403,3,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+40,1,"Nicola-Yarred, Miss. Jamila",14.0,2.5048481563289,2,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+41,0,"Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",40.0,2.348991465808201,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+42,0,"Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",27.0,3.091042453358316,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+43,0,"Kraeff, Mr. Theodor",26.0,2.1855792552411137,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+44,1,"Laroche, Miss. Simonne Marie Anne Andree",3.0,3.7513658711253766,4,0,True,False,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+45,1,"Devaney, Miss. Margaret Delia",19.0,2.1837114628556327,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+46,0,"Rogers, Mr. William John",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+47,0,"Lennon, Mr. Denis",26.0,2.803360380906535,2,0,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+48,1,"O'Driscoll, Miss. Bridget",18.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+49,0,"Samaan, Mr. Youssef",26.0,3.1214482048688246,3,0,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+50,0,"Arnold-Franchi, Mrs. Josef (Josefine Franchi)",18.0,2.9338568698359038,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+51,0,"Panula, Master. Juha Niilo",7.0,3.705920919968788,6,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+52,0,"Nosworthy, Mr. Richard Cater",21.0,2.174751721484161,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+53,1,"Harper, Mrs. Henry Sleeper (Myna Haxtun)",49.0,4.353230991152628,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+54,1,"Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",29.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+55,0,"Ostby, Mr. Engelhart Cornelius",65.0,4.142804513146981,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+56,1,"Woolner, Mr. Hugh",40.0,3.597312260588446,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+57,1,"Rugg, Miss. Emily",21.0,2.4423470353692043,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+58,0,"Novel, Mr. Mansouer",28.5,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+59,1,"West, Miss. Constance Mirium",5.0,3.3586377672433594,4,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+60,0,"Goodwin, Master. William Frederick",11.0,3.8691155044168695,8,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+61,0,"Sirayanian, Mr. Orsen",22.0,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+62,1,"Icard, Miss. Amelie",38.0,4.394449154672439,1,1,True,False,False,True,False,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+63,0,"Harris, Mr. Henry Birkhardt",45.0,4.436455632600354,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+64,0,"Skoog, Master. Harald",4.0,3.3638415951183864,6,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+65,0,"Stewart, Mr. Albert A",40.0,3.357621598945279,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+66,1,"Moubarek, Master. Gerios",4.0,2.7878344138303452,3,0,False,True,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+67,1,"Nye, Mrs. (Elizabeth Ramell)",29.0,2.4423470353692043,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False
+68,0,"Crease, Mr. Ernest James",19.0,2.2146605719425225,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+69,1,"Andersson, Miss. Erna Alexandra",17.0,2.188856327665703,7,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+70,0,"Kink, Mr. Vincenz",26.0,2.2682524139135403,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+71,0,"Jenkin, Mr. Stephen Curnow",32.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+72,0,"Goodwin, Miss. Lillian Amy",16.0,3.8691155044168695,8,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+73,0,"Hood, Mr. Ambrose Jr",21.0,4.310799125385514,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+74,0,"Chronopoulos, Mr. Apostolos",26.0,2.737880811060884,2,0,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+75,1,"Bing, Mr. Lee",32.0,4.05171190165724,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+76,0,"Moen, Mr. Sigurd Hansen",25.0,2.157559320943788,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,True,False,False,False
+77,0,"Staneff, Mr. Ivan",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+78,0,"Moutal, Mr. Rahamin Haim",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+79,1,"Caldwell, Master. Alden Gates",0.83,3.4011973816621555,3,0,False,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+80,1,"Dowdell, Miss. Elizabeth",30.0,2.600836116795061,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+81,0,"Waelens, Mr. Achille",22.0,2.302585092994046,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+82,1,"Sheerlinck, Mr. Jan Baptist",29.0,2.3513752571634776,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+83,1,"McDermott, Miss. Brigdet Delia",18.0,2.1733302571367834,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+84,0,"Carrau, Mr. Francisco M",28.0,3.8732821771117156,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+85,1,"Ilett, Miss. Bertha",17.0,2.4423470353692043,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+86,1,"Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",33.0,2.8243506567983707,4,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+87,0,"Ford, Mr. William Neal",16.0,3.5660053559634015,5,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+88,0,"Slocovski, Mr. Selman Francis",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+89,1,"Fortune, Miss. Mabel Helen",23.0,5.575949103146316,6,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+90,0,"Celotti, Mr. Francesco",24.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+91,0,"Christmann, Mr. Emil",29.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+92,0,"Andreasson, Mr. Paul Edvin",20.0,2.180891922715322,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+93,0,"Chaffee, Mr. Herbert Fuller",46.0,4.1299529896894684,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+94,0,"Dean, Mr. Bertram Frank",26.0,3.0715352369694915,4,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+95,0,"Coxon, Mr. Daniel",59.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+96,0,"Shorney, Mr. Charles Joseph",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+97,0,"Goldschmidt, Mr. George B",71.0,3.57386695198272,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+98,1,"Greenfield, Mr. William Bertram",23.0,4.164465907853638,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+99,1,"Doling, Mrs. John T (Ada Julia Bone)",34.0,3.1780538303479458,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+100,0,"Kantor, Mr. Sinai",34.0,3.295836866004329,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+101,0,"Petranec, Miss. Matilda",28.0,2.1855792552411137,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+102,0,"Petroff, Mr. Pastcho (""Pentcho"")",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+103,0,"White, Mr. Richard Frasar",21.0,4.360387947851531,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+104,0,"Johansson, Mr. Gustaf Joel",33.0,2.267393053825037,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+105,0,"Gustafsson, Mr. Anders Vilhelm",37.0,2.188856327665703,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+106,0,"Mionoff, Mr. Stoytcho",28.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+107,1,"Salkjelsvik, Miss. Anna Kristine",21.0,2.157559320943788,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+108,1,"Moss, Mr. Albert Johan",26.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+109,0,"Rekic, Mr. Tido",38.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+110,1,"Moran, Miss. Bertha",18.0,3.224857896545748,2,0,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+111,0,"Porter, Mr. Walter Chamberlain",47.0,3.970291913552122,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+112,0,"Zabour, Miss. Hileni",14.5,2.737880811060884,2,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+113,0,"Barton, Mr. David John",22.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+114,0,"Jussila, Miss. Katriina",20.0,2.3818582738885534,2,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+115,0,"Attalah, Miss. Malake",17.0,2.738146075922933,1,1,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+116,0,"Pekoniemi, Mr. Edvard",21.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+117,0,"Connors, Mr. Patrick",70.5,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+118,0,"Turpin, Mr. William John Robert",29.0,3.091042453358316,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+119,0,"Baxter, Mr. Quigg Edmond",24.0,5.515526544247129,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+120,0,"Andersson, Miss. Ellis Anna Maria",2.0,3.4742929367327062,7,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+121,0,"Hickman, Mr. Stanley George",21.0,4.310799125385514,3,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+122,0,"Moore, Mr. Leonard Charles",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+123,0,"Nasser, Mr. Nicholas",32.5,3.436268471383741,2,0,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+124,1,"Webber, Miss. Susan",32.5,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False
+125,0,"White, Mr. Percival Wayland",54.0,4.360387947851531,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+126,1,"Nicola-Yarred, Master. Elias",12.0,2.5048481563289,2,0,False,True,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+127,0,"McMahon, Mr. Martin",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+128,1,"Madsen, Mr. Fridtjof Arne",24.0,2.0969990034181696,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+129,1,"Peter, Miss. Anna",18.0,3.1509523813392697,3,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,True,False,False,False
+130,0,"Ekstrom, Mr. Johan",45.0,2.076311648670908,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+131,0,"Drazenoic, Mr. Jozef",33.0,2.1855792552411137,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+132,0,"Coelho, Mr. Domingos Fernandeo",20.0,2.0856720914304723,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+133,0,"Robins, Mrs. Alexander A (Grace Charity Laury)",47.0,2.740840023925201,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+134,1,"Weisz, Mrs. Leopold (Mathilde Francoise Pede)",29.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+135,0,"Sobey, Mr. Samuel James Hayden",25.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+136,0,"Richard, Mr. Emile",23.0,2.775447133088262,1,1,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+137,1,"Newsom, Miss. Helen Monypeny",19.0,3.3062747934011893,3,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+138,0,"Futrelle, Mr. Jacques Heath",37.0,3.9908341858524357,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+139,0,"Osen, Mr. Olaf Elon",16.0,2.3240236363515288,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+140,0,"Giglio, Mr. Victor",24.0,4.384523514872469,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+141,0,"Boulos, Mrs. Joseph (Sultana)",31.0,2.7878344138303452,3,0,True,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+142,1,"Nysten, Miss. Anna Sofia",22.0,2.169053700369523,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+143,1,"Hakkarainen, Mrs. Pekka Pietari (Elin Matilda Dolck)",24.0,2.8243506567983707,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+144,0,"Burke, Mr. Jeremiah",19.0,2.0476928433652555,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+145,0,"Andrew, Mr. Edgardo Samuel",18.0,2.5257286443082556,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+146,0,"Nicholls, Mr. Joseph Charles",19.0,3.6309854756950335,3,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+147,1,"Andersson, Mr. August Edvard (""Wennerstrom"")",27.0,2.174274334826008,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+148,0,"Ford, Miss. Robina Maggie ""Ruby""",9.0,3.5660053559634015,5,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+149,0,"Navratil, Mr. Michel (""Louis M Hoffman"")",36.5,3.295836866004329,3,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False
+150,0,"Byles, Rev. Thomas Roussel Davids",42.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+151,0,"Bateman, Rev. Robert James",51.0,2.6045398247325453,1,1,False,True,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+152,1,"Pears, Mrs. Thomas (Edith Wearne)",22.0,4.213607983048918,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+153,0,"Meo, Mr. Alfonzo",55.5,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+154,0,"van Billiard, Mr. Austin Blyler",40.5,2.740840023925201,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+155,0,"Olsen, Mr. Ole Martin",26.0,2.1177604059819726,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+156,0,"Williams, Mr. Charles Duane",51.0,4.133231886474144,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+157,1,"Gilnagh, Miss. Katherine ""Katie""",16.0,2.167143305297764,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+158,0,"Corn, Mr. Harry",30.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+159,0,"Smiljanic, Mr. Mile",26.0,2.2682524139135403,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+160,0,"Sage, Master. Thomas Henry",4.0,4.256321678298823,11,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+161,0,"Cribb, Mr. John Hatfield",44.0,2.8390784635086144,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+162,1,"Watt, Mrs. James (Elizabeth ""Bessie"" Inglis Milne)",40.0,2.8183982582710754,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+163,0,"Bengtsson, Mr. John Viktor",26.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+164,0,"Calic, Mr. Jovo",17.0,2.2682524139135403,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+165,0,"Panula, Master. Eino Viljami",1.0,3.705920919968788,6,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+166,1,"Goldsmith, Master. Frank John William ""Frankie""",9.0,3.0692150503137943,3,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+167,1,"Chibnall, Mrs. (Edith Martha Bowerman)",41.5,4.02535169073515,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False
+168,0,"Skoog, Mrs. William (Anna Bernhardina Karlsson)",45.0,3.3638415951183864,6,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+169,0,"Baumann, Mr. John D",40.0,3.2930552230424524,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+170,0,"Ling, Mr. Lee",28.0,4.05171190165724,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+171,0,"Van der hoef, Mr. Wyckoff",61.0,3.5409593240373143,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+172,0,"Rice, Master. Arthur",4.0,3.405355391810819,6,0,False,True,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+173,1,"Johnson, Miss. Eleanor Ileen",1.0,2.495953738718064,3,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+174,0,"Sivola, Mr. Antti Wilhelm",21.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+175,0,"Smith, Mr. James Clinch",56.0,3.4561841799918147,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+176,0,"Klasen, Mr. Klas Albin",18.0,2.180891922715322,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+177,0,"Lefebre, Master. Henry Forbes",4.0,3.275887339030031,5,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+178,0,"Isham, Miss. Ann Elizabeth",50.0,3.391567832686312,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+179,0,"Hale, Mr. Reginald",30.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+180,0,"Leonard, Mr. Lionel",36.0,0.0,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+181,0,"Sage, Miss. Constance Gladys",18.0,4.256321678298823,11,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+182,0,"Pernot, Mr. Rene",31.0,2.775708849576025,1,1,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+183,0,"Asplund, Master. Clarence Gustaf Hugo",9.0,3.4777725458882283,7,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+184,1,"Becker, Master. Richard F",1.0,3.6888794541139363,4,0,False,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False
+185,1,"Kink-Heilmann, Miss. Luise Gretchen",4.0,3.1365805821413706,3,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+186,0,"Rood, Mr. Hugh Roscoe",40.0,3.9318256327243257,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+187,1,"O'Brien, Mrs. Thomas (Johanna ""Hannah"" Godfrey)",31.0,2.803360380906535,2,0,True,False,False,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+188,1,"Romaine, Mr. Charles Hallace (""Mr C Rolmane"")",45.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+189,0,"Bourke, Mr. John",40.0,2.803360380906535,3,0,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+190,0,"Turcin, Mr. Stjepan",36.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+191,1,"Pinsky, Mrs. (Rosa)",32.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+192,0,"Carbines, Mr. William",19.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+193,1,"Andersen-Jensen, Miss. Carla Christine Nielsine",19.0,2.180891922715322,2,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+194,1,"Navratil, Master. Michel M",3.0,3.295836866004329,3,0,False,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False
+195,1,"Brown, Mrs. James Joseph (Margaret Tobin)",44.0,3.357621598945279,1,1,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+196,1,"Lurette, Miss. Elise",58.0,4.993969182787072,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+197,0,"Mernagh, Mr. Robert",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+198,0,"Olsen, Mr. Karl Siegwart Andreas",42.0,2.2411563979973974,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+199,1,"Madigan, Miss. Margaret ""Maggie""",18.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+200,0,"Yrois, Miss. Henriette (""Mrs Harbeck"")",24.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+201,0,"Vande Walle, Mr. Nestor Cyriel",28.0,2.3513752571634776,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+202,0,"Sage, Mr. Frederick",26.0,4.256321678298823,11,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+203,0,"Johanson, Mr. Jakob Alfred",34.0,2.0143428636837015,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+204,0,"Youseff, Mr. Gerious",45.5,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+205,1,"Cohen, Mr. Gurshon ""Gus""",18.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+206,0,"Strom, Miss. Telma Matilda",2.0,2.4390808375825834,2,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,True,False,False
+207,0,"Backstrom, Mr. Karl Alfred",32.0,2.8243506567983707,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+208,1,"Albimona, Mr. Nassef Cassem",26.0,2.9850504252071306,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+209,1,"Carr, Miss. Helen ""Ellen""",16.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+210,1,"Blank, Mr. Henry",40.0,3.4657359027997265,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+211,0,"Ali, Mr. Ahmed",24.0,2.0856720914304723,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+212,1,"Cameron, Miss. Clear Annie",35.0,3.091042453358316,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+213,0,"Perkin, Mr. John Henry",22.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+214,0,"Givard, Mr. Hans Kristensen",30.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+215,0,"Kiernan, Mr. Philip",26.0,2.169053700369523,2,0,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+216,1,"Newell, Miss. Madeleine",31.0,4.738607824217808,2,0,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+217,1,"Honkanen, Miss. Eliina",27.0,2.188856327665703,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+218,0,"Jacobsohn, Mr. Sidney Samuel",42.0,3.332204510175204,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+219,1,"Bazzani, Miss. Albina",32.0,4.347586575960343,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+220,0,"Harris, Mr. Walter",30.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+221,1,"Sunderland, Mr. Victor Francis",16.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+222,0,"Bracken, Mr. James H",27.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+223,0,"Green, Mr. George Henry",51.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+224,0,"Nenkoff, Mr. Christo",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+225,1,"Hoyt, Mr. Frederick Maxfield",38.0,4.51085950651685,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+226,0,"Berglund, Mr. Karl Ivar Sven",22.0,2.336986519711378,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+227,1,"Mellors, Mr. William John",19.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+228,0,"Lovell, Mr. John Hall (""Henry"")",20.5,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+229,0,"Fahlstrom, Mr. Arne Jonas",18.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+230,0,"Lefebre, Miss. Mathilde",18.0,3.275887339030031,5,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+231,1,"Harris, Mrs. Henry Birkhardt (Irene Wallach)",35.0,4.436455632600354,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+232,0,"Larsson, Mr. Bengt Edvin",29.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+233,0,"Sjostedt, Mr. Ernst Adolf",59.0,2.6741486494265287,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+234,1,"Asplund, Miss. Lillian Gertrud",5.0,3.4777725458882283,7,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+235,0,"Leyson, Mr. Robert William Norman",24.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+236,0,"Harknett, Miss. Alice Phoebe",18.0,2.145931282948669,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+237,0,"Hold, Mr. Stephen",44.0,3.295836866004329,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+238,1,"Collyer, Miss. Marjorie ""Lottie""",8.0,3.305053521109253,3,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+239,0,"Pengelly, Mr. Frederick William",19.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+240,0,"Hunt, Mr. George Henry",33.0,2.5858825671280026,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+241,0,"Zabour, Miss. Thamine",18.0,2.737880811060884,2,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+242,1,"Murphy, Miss. Katherine ""Kate""",18.0,2.803360380906535,2,0,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+243,0,"Coleridge, Mr. Reginald Charles",29.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+244,0,"Maenpaa, Mr. Matti Alexanteri",22.0,2.094945728215801,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+245,0,"Attalah, Mr. Sleiman",30.0,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+246,0,"Minahan, Dr. William Edward",44.0,4.51085950651685,3,0,False,True,False,False,True,False,True,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False
+247,0,"Lindahl, Miss. Agda Thorilda Viktoria",25.0,2.1719067693519296,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+248,1,"Hamalainen, Mrs. William (Anna)",24.0,2.740840023925201,3,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+249,1,"Beckwith, Mr. Richard Leonard",37.0,3.9806942251907276,3,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+250,0,"Carter, Rev. Ernest Courtenay",54.0,3.295836866004329,2,0,False,True,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+251,0,"Reed, Mr. James George",26.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+252,0,"Strom, Mrs. Wilhelm (Elna Matilda Persson)",29.0,2.4390808375825834,3,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False
+253,0,"Stead, Mr. William Thomas",62.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+254,0,"Lobb, Mr. William Arthur",30.0,2.8390784635086144,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+255,0,"Rosblom, Mrs. Viktor (Helena Wilhelmina)",41.0,3.0545906305603445,3,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+256,1,"Touma, Mrs. Darwis (Hanne Youssef Razi)",29.0,2.7878344138303452,3,0,True,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+257,1,"Thorne, Mrs. Gertrude Maybelle",41.5,4.384523514872469,1,1,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+258,1,"Cherry, Miss. Gladys",30.0,4.471638793363569,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+259,1,"Ward, Miss. Anna",35.0,6.240917354759096,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+260,1,"Parrish, Mrs. (Lutie Davis)",50.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+261,0,"Smith, Mr. Thomas",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+262,1,"Asplund, Master. Edvin Rojj Felix",3.0,3.4777725458882283,7,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+263,0,"Taussig, Mr. Emil",52.0,4.390118804571218,3,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+264,0,"Harrison, Mr. William",40.0,0.0,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+265,0,"Henry, Miss. Delia",18.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+266,0,"Reeves, Mr. David",36.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+267,0,"Panula, Mr. Ernesti Arvid",16.0,3.705920919968788,6,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+268,1,"Persson, Mr. Ernst Ulrik",25.0,2.1719067693519296,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+269,1,"Graham, Mrs. William Thompson (Edith Junkins)",58.0,5.039951348430309,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+270,1,"Bissette, Miss. Amelia",35.0,4.91730069488021,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+271,0,"Cairns, Mr. Alexander",40.0,3.4657359027997265,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+272,1,"Tornquist, Mr. William Henry",25.0,0.0,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+273,1,"Mellinger, Mrs. (Elizabeth Anne Maidment)",41.0,3.0204248861443626,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+274,0,"Natsch, Mr. Charles H",37.0,3.4242626545931514,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+275,1,"Healy, Miss. Hanora ""Nora""",18.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+276,1,"Andrews, Miss. Kornelia Theodosia",63.0,4.368919865004903,2,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+277,0,"Lindblom, Miss. Augusta Charlotta",45.0,2.169053700369523,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+278,0,"Parkes, Mr. Francis ""Frank""",31.0,0.0,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+279,0,"Rice, Master. Eric",7.0,3.405355391810819,6,0,False,True,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+280,1,"Abbott, Mrs. Stanton (Rosa Hunt)",35.0,3.056356895370426,3,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+281,0,"Duane, Mr. Frank",65.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+282,0,"Olsson, Mr. Nils Johan Goransson",28.0,2.180891922715322,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+283,0,"de Pelsmaeker, Mr. Alfons",16.0,2.3513752571634776,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+284,1,"Dorking, Mr. Edward Arthur",19.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+285,0,"Smith, Mr. Richard William",40.0,3.295836866004329,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+286,0,"Stankovic, Mr. Ivan",33.0,2.2682524139135403,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+287,1,"de Mulder, Mr. Theodore",30.0,2.3513752571634776,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+288,0,"Naidenoff, Mr. Penko",22.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+289,1,"Hosono, Mr. Masabumi",42.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+290,1,"Connolly, Miss. Kate",22.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+291,1,"Barber, Miss. Ellen ""Nellie""",26.0,4.380149874661021,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+292,1,"Bishop, Mrs. Dickinson H (Helen Walton)",19.0,4.5226490762785785,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+293,0,"Levy, Mr. Rene Jacques",36.0,2.630088659632498,1,1,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+294,0,"Haas, Miss. Aloisia",24.0,2.2874714551839976,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+295,0,"Mineff, Mr. Ivan",24.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+296,0,"Lewy, Mr. Ervin G",40.0,3.357621598945279,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+297,0,"Hanna, Mr. Mansour",23.5,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+298,0,"Allison, Miss. Helen Loraine",2.0,5.027492411162679,4,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+299,1,"Saalfeld, Mr. Adolphe",40.0,3.449987545831587,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+300,1,"Baxter, Mrs. James (Helene DeLaudeniere Chaput)",50.0,5.515526544247129,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+301,1,"Kelly, Miss. Anna Katherine ""Annie Kate""",18.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+302,1,"McCoy, Mr. Bernard",26.0,3.188416617383492,3,0,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+303,0,"Johnson, Mr. William Cahoone Jr",19.0,0.0,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+304,1,"Keane, Miss. Nora A",24.0,2.5915163848462583,1,1,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False
+305,0,"Williams, Mr. Howard Hugh ""Harry""",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+306,1,"Allison, Master. Hudson Trevor",0.92,5.027492411162679,4,0,False,True,False,False,False,True,True,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False
+307,1,"Fleming, Miss. Margaret",30.0,4.717456363787216,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+308,1,"Penasco y Castellana, Mrs. Victor de Satode (Maria Josefa Perez de Soto y Vallejo)",17.0,4.699570861409576,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+309,0,"Abelson, Mr. Samuel",30.0,3.2188758248682006,2,0,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+310,1,"Francatelli, Miss. Laura Mabel",30.0,4.0592215752427645,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False
+311,1,"Hays, Miss. Margaret Bechstein",24.0,4.432699549165613,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+312,1,"Ryerson, Miss. Emily Borie",18.0,5.5735788721243535,5,0,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+313,0,"Lahtinen, Mrs. William (Anna Sylfven)",26.0,3.295836866004329,3,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+314,0,"Hendekovic, Mr. Ignjac",28.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+315,0,"Hart, Mr. Benjamin",43.0,3.305053521109253,3,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+316,1,"Nilsson, Miss. Helmina Josefina",26.0,2.180891922715322,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+317,1,"Kantor, Mrs. Sinai (Miriam Sternin)",24.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+318,0,"Moraweck, Dr. Ernest",54.0,2.70805020110221,1,1,False,True,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+319,1,"Wick, Miss. Mary Natalie",31.0,5.11118445372147,3,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+320,1,"Spedden, Mrs. Frederic Oakley (Margaretta Corning Stone)",40.0,4.908971640319756,3,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False
+321,0,"Dennis, Mr. Samuel",22.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+322,0,"Danoff, Mr. Yoto",27.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+323,1,"Slayter, Miss. Hilda Mary",30.0,2.5915163848462583,1,1,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+324,1,"Caldwell, Mrs. Albert Francis (Sylvia Mae Harbaugh)",22.0,3.4011973816621555,3,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+325,0,"Sage, Mr. George John Jr",26.0,4.256321678298823,11,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+326,1,"Young, Miss. Marie Grice",36.0,4.91730069488021,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+327,0,"Nysveen, Mr. Johan Hansen",61.0,1.9792758428991135,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+328,1,"Ball, Mrs. (Ada E Hall)",36.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+329,1,"Goldsmith, Mrs. Frank John (Emily Alice Brown)",31.0,3.0692150503137943,3,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+330,1,"Hippach, Miss. Jean Gertrude",16.0,4.077184839375167,2,0,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+331,1,"McCoy, Miss. Agnes",18.0,3.188416617383492,3,0,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+332,0,"Partner, Mr. Austen",45.5,3.3843902633457743,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+333,0,"Graham, Mr. George Edward",38.0,5.039951348430309,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+334,0,"Vander Planke, Mr. Leo Edmondus",16.0,2.9444389791664403,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+335,1,"Frauenthal, Mrs. Henry William (Clara Heinsheimer)",41.5,4.902678819257608,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+336,0,"Denkoff, Mr. Mitto",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+337,0,"Pears, Mr. Thomas Clinton",29.0,4.213607983048918,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+338,1,"Burns, Miss. Elizabeth Margaret",41.0,4.908971640319756,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False
+339,1,"Dahl, Mr. Karl Edwart",45.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+340,0,"Blackwell, Mr. Stephen Weart",45.0,3.597312260588446,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True,False
+341,1,"Navratil, Master. Edmond Roger",2.0,3.295836866004329,3,0,False,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,True,False,False,False
+342,1,"Fortune, Miss. Alice Elizabeth",24.0,5.575949103146316,6,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+343,0,"Collander, Mr. Erik Gustaf",28.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+344,0,"Sedgwick, Mr. Charles Frederick Waddington",25.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+345,0,"Fox, Mr. Stanley Hubert",36.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+346,1,"Brown, Miss. Amelia ""Mildred""",24.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False
+347,1,"Smith, Miss. Marion Elsie",40.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+348,1,"Davison, Mrs. Thomas Henry (Mary E Finck)",31.0,2.8390784635086144,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+349,1,"Coutts, Master. William Loch ""William""",3.0,2.8273136219290276,3,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+350,0,"Dimic, Mr. Jovan",42.0,2.2682524139135403,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+351,0,"Odahl, Mr. Nils Martin",23.0,2.3248357019288655,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+352,0,"Williams-Lambert, Mr. Fletcher Fellows",40.0,3.58351893845611,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+353,0,"Elias, Mr. Tannous",15.0,2.1076888046179385,3,0,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+354,0,"Arnold-Franchi, Mr. Josef",25.0,2.9338568698359038,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+355,0,"Yousif, Mr. Wazli",26.0,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+356,0,"Vanden Steen, Mr. Leo Peter",28.0,2.3513752571634776,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+357,1,"Bowerman, Miss. Elsie Edith",22.0,4.02535169073515,2,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False
+358,0,"Funk, Miss. Annie Clemmer",38.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+359,1,"McGovern, Miss. Mary",18.0,2.1837114628556327,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+360,1,"Mockler, Miss. Helen Mary ""Ellie""",18.0,2.1837114628556327,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+361,0,"Skoog, Mr. Wilhelm",40.0,3.3638415951183864,6,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+362,0,"del Carlo, Mr. Sebastiano",29.0,3.357621598945279,2,0,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+363,0,"Barbara, Mrs. (Catherine David)",45.0,2.737880811060884,2,0,True,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+364,0,"Asim, Mr. Adola",35.0,2.0856720914304723,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+365,0,"O'Brien, Mr. Thomas",26.0,2.803360380906535,2,0,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+366,0,"Adahl, Mr. Mauritz Nils Martin",30.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+367,1,"Warren, Mrs. Frank Manley (Anna Sophia Atkinson)",60.0,4.334017415487521,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+368,1,"Moussa, Mrs. (Mantoura Boulos)",31.0,2.1076888046179385,1,1,True,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+369,1,"Jermyn, Miss. Annie",18.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+370,1,"Aubart, Mme. Leontine Pauline",24.0,4.252771798816619,1,1,True,False,True,False,False,False,True,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False
+371,1,"Harder, Mr. George Achilles",25.0,4.0332082470129285,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+372,0,"Wiklund, Mr. Jakob Alfred",18.0,2.0143428636837015,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+373,0,"Beavan, Mr. William Thomas",19.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+374,0,"Ringhini, Mr. Sante",22.0,4.91730069488021,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+375,0,"Palsson, Miss. Stina Viola",3.0,3.0944457464900235,5,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+376,1,"Meyer, Mrs. Edgar Joseph (Leila Saks)",41.5,4.420896324687287,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+377,1,"Landergren, Miss. Aurora Adelia",22.0,2.1102132003465894,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+378,0,"Widener, Mr. Harry Elkins",27.0,5.358941988364472,3,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+379,0,"Betros, Mr. Tannous",20.0,1.6119347926326877,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+380,0,"Gustafsson, Mr. Karl Gideon",19.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+381,1,"Bidois, Miss. Rosalie",42.0,5.4316456135398825,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+382,1,"Nakid, Miss. Maria (""Mary"")",1.0,2.817902613071225,3,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+383,0,"Tikkanen, Mr. Juho",32.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+384,1,"Holverson, Mrs. Alexander Oskar (Mary Aline Towner)",35.0,3.970291913552122,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+385,0,"Plotcharsky, Mr. Vasil",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+386,0,"Davies, Mr. Charles Henry",18.0,4.310799125385514,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+387,0,"Goodwin, Master. Sidney Leonard",1.0,3.8691155044168695,8,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+388,1,"Buss, Miss. Kate",36.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+389,0,"Sadlier, Mr. Matthew",26.0,2.1666737276227077,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+390,1,"Lehmann, Miss. Bertha",17.0,2.5649493574615367,1,1,True,False,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+391,1,"Carter, Mr. William Ernest",36.0,4.795790545596741,4,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+392,1,"Jansson, Mr. Carl Olof",21.0,2.174274334826008,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+393,0,"Gustafsson, Mr. Johan Birger",28.0,2.188856327665703,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+394,1,"Newell, Miss. Marjorie",23.0,4.738607824217808,2,0,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+395,1,"Sandstrom, Mrs. Hjalmar (Agnes Charlotta Bengtsson)",24.0,2.8735646395797834,3,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False
+396,0,"Johansson, Mr. Erik",22.0,2.174274334826008,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+397,0,"Olsson, Miss. Elina",31.0,2.180891922715322,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+398,0,"McKane, Mr. Peter David",46.0,3.295836866004329,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+399,0,"Pain, Dr. Alfred",23.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+400,1,"Trout, Mrs. William H (Jessie L)",28.0,2.613739521630969,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+401,1,"Niskanen, Mr. Juha",39.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+402,0,"Adams, Mr. John",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+403,0,"Jussila, Miss. Mari Aina",21.0,2.3818582738885534,2,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+404,0,"Hakkarainen, Mr. Pekka Pietari",28.0,2.8243506567983707,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+405,0,"Oreskovic, Miss. Marija",20.0,2.2682524139135403,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+406,0,"Gale, Mr. Shadrach",34.0,3.091042453358316,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+407,0,"Widegren, Mr. Carl/Charles Peter",51.0,2.169053700369523,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+408,1,"Richards, Master. William Rowe",3.0,2.9831534913471307,3,0,False,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+409,0,"Birkeland, Mr. Hans Martin Monsen",21.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+410,0,"Lefebre, Miss. Ida",18.0,3.275887339030031,5,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+411,0,"Sdycoff, Mr. Todor",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+412,0,"Hart, Mr. Henry",26.0,2.061570298060867,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+413,1,"Minahan, Miss. Daisy E",33.0,4.51085950651685,2,0,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+414,0,"Cunningham, Mr. Alfred Fleming",31.0,0.0,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+415,1,"Sundman, Mr. Johan Julian",44.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+416,0,"Meek, Mrs. Thomas (Annie Louise Rowley)",31.0,2.2027647577118348,1,1,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+417,1,"Drew, Mrs. James Vivian (Lulu Thorne Christian)",34.0,3.5115454388310208,3,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+418,1,"Silven, Miss. Lyyli Karoliina",18.0,2.6390573296152584,3,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+419,0,"Matthews, Mr. William John",30.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+420,0,"Van Impe, Miss. Catharina",10.0,3.224857896545748,3,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+421,0,"Gheorgheff, Mr. Stanio",26.0,2.1855792552411137,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+422,0,"Charters, Mr. David",21.0,2.167143305297764,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+423,0,"Zimmerman, Mr. Leo",29.0,2.1832383353614797,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+424,0,"Danbom, Mrs. Ernst Gilbert (Anna Sigrid Maria Brogren)",28.0,2.7343675094195836,3,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+425,0,"Rosblom, Mr. Viktor Richard",18.0,3.0545906305603445,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+426,0,"Wiseman, Mr. Phillippe",26.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+427,1,"Clarke, Mrs. Charles V (Ada Maria Winfield)",28.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+428,1,"Phillips, Miss. Kate Florence (""Mrs Kate Louise Phillips Marshall"")",19.0,3.295836866004329,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+429,0,"Flynn, Mr. James",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+430,1,"Pickard, Mr. Berk (Berk Trembisky)",32.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+431,1,"Bjornstrom-Steffansson, Mr. Mauritz Hakan",28.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+432,1,"Thorneycroft, Mrs. Percival (Florence Kate White)",31.0,2.8390784635086144,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+433,1,"Louch, Mrs. Charles Alexander (Alice Adelaide Slow)",42.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+434,0,"Kallio, Mr. Nikolai Erland",17.0,2.094945728215801,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+435,0,"Silvey, Mr. William Baird",50.0,4.041295341132285,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+436,1,"Carter, Miss. Lucile Polk",14.0,4.795790545596741,4,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+437,0,"Ford, Miss. Doolina Margaret ""Daisy""",21.0,3.5660053559634015,5,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+438,1,"Richards, Mrs. Sidney (Emily Hocking)",24.0,2.9831534913471307,6,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+439,0,"Fortune, Mr. Mark",64.0,5.575949103146316,6,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+440,0,"Kvillner, Mr. Johan Henrik Johannesson",31.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+441,1,"Hart, Mrs. Benjamin (Esther Ada Bloomfield)",45.0,3.305053521109253,3,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+442,0,"Hampe, Mr. Leon",20.0,2.3513752571634776,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+443,0,"Petterson, Mr. Johan Emil",25.0,2.1719067693519296,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+444,1,"Reynaldo, Ms. Encarnacion",28.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+445,1,"Johannesen-Bratthammer, Mr. Bernt",26.0,2.2096470973347766,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+446,1,"Dodge, Master. Washington",4.0,4.417131919904876,3,0,False,True,False,False,False,True,True,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False
+447,1,"Mellinger, Miss. Madeleine Violet",13.0,3.0204248861443626,2,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+448,1,"Seward, Mr. Frederic Kimber",34.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+449,1,"Baclini, Miss. Marie Catherine",5.0,3.0085645861193133,4,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+450,1,"Peuchen, Major. Arthur Godfrey",52.0,3.449987545831587,1,1,False,True,False,False,False,True,True,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False
+451,0,"West, Mr. Edwy Arthur",36.0,3.3586377672433594,4,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+452,0,"Hagland, Mr. Ingvald Olai Olsen",26.0,3.0429354648621407,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+453,0,"Foreman, Mr. Benjamin Laventall",30.0,3.3586377672433594,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+454,1,"Goldenberg, Mr. Samuel L",49.0,4.500966778400217,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+455,0,"Peduzzi, Mr. Joseph",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+456,1,"Jalsevac, Mr. Ivan",29.0,2.1855792552411137,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+457,0,"Millet, Mr. Francis Davis",65.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+458,1,"Kenyon, Mrs. Frederick R (Marion)",41.5,3.967694202798607,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+459,1,"Toomey, Miss. Ellen",50.0,2.4423470353692043,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+460,0,"O'Connor, Mr. Maurice",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+461,1,"Anderson, Mr. Harry",48.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+462,0,"Morley, Mr. William",34.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+463,0,"Gee, Mr. Arthur H",47.0,3.676300671907076,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+464,0,"Milling, Mr. Jacob Christian",48.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+465,0,"Maisner, Mr. Simon",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+466,0,"Goncalves, Mr. Manuel Estanslas",38.0,2.0856720914304723,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+467,0,"Campbell, Mr. William",31.0,0.0,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+468,0,"Smart, Mr. John Montgomery",56.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+469,0,"Scanlan, Mr. James",26.0,2.1661924680884908,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+470,1,"Baclini, Miss. Helene Barbara",0.75,3.0085645861193133,4,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+471,0,"Keefe, Mr. Arthur",26.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+472,0,"Cacic, Mr. Luka",38.0,2.2682524139135403,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+473,1,"West, Mrs. Edwy Arthur (Ada Mary Worth)",33.0,3.3586377672433594,4,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+474,1,"Jerwan, Mrs. Amin S (Marie Marthe Thuillard)",23.0,2.694066212646058,1,1,True,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+475,0,"Strandberg, Miss. Ida Sofia",22.0,2.3830123421066602,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+476,0,"Clifford, Mr. George Quincy",40.0,3.970291913552122,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+477,0,"Renouf, Mr. Peter Henry",34.0,3.091042453358316,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+478,0,"Braund, Mr. Lewis Richard",29.0,2.0851502161468174,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+479,0,"Karlsson, Mr. Nils August",22.0,2.142510233146819,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+480,1,"Hirvonen, Miss. Hildur E",2.0,2.586823743668066,2,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+481,0,"Goodwin, Master. Harold Victor",9.0,3.8691155044168695,8,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+482,0,"Frost, Mr. Anthony Wood ""Archie""",31.0,0.0,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+483,0,"Rouse, Mr. Richard Henry",50.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+484,1,"Turkula, Mrs. (Hedwig)",63.0,2.3596740599781727,1,1,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+485,1,"Bishop, Mr. Dickinson H",25.0,4.5226490762785785,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+486,0,"Lefebre, Miss. Jeannie",18.0,3.275887339030031,5,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+487,1,"Hoyt, Mrs. Frederick Maxfield (Jane Anne Forby)",35.0,4.51085950651685,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+488,0,"Kent, Mr. Edward Austin",58.0,3.4242626545931514,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+489,0,"Somerton, Mr. Francis William",30.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+490,1,"Coutts, Master. Eden Leslie ""Neville""",9.0,2.8273136219290276,3,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+491,0,"Hagland, Mr. Konrad Mathias Reiersen",26.0,3.0429354648621407,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+492,0,"Windelov, Mr. Einar",21.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+493,0,"Molson, Mr. Harry Markland",55.0,3.449987545831587,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+494,0,"Artagaveytia, Mr. Ramon",71.0,3.922056501139853,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+495,0,"Stanley, Mr. Edward Roland",21.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+496,0,"Yousseff, Mr. Gerious",26.0,2.738146075922933,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+497,1,"Eustis, Miss. Elizabeth Mussey",54.0,4.37281811610993,2,0,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+498,0,"Shellard, Mr. Frederick William",26.0,2.7788192719904172,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+499,0,"Allison, Mrs. Hudson J C (Bessie Waldo Daniels)",25.0,5.027492411162679,4,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+500,0,"Svensson, Mr. Olof",24.0,2.174274334826008,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+501,0,"Calic, Mr. Petar",17.0,2.2682524139135403,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+502,0,"Canavan, Miss. Mary",21.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+503,0,"O'Sullivan, Miss. Bridget Mary",18.0,2.155151800914312,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+504,0,"Laitinen, Miss. Kristina Sofia",37.0,2.3596740599781727,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+505,1,"Maioni, Miss. Roberta",16.0,4.471638793363569,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+506,0,"Penasco y Castellana, Mr. Victor de Satode",18.0,4.699570861409576,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+507,1,"Quick, Mrs. Frederick Charles (Jane Richards)",33.0,3.295836866004329,3,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+508,1,"Bradley, Mr. George (""George Arthur Brayton"")",40.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+509,0,"Olsen, Mr. Henry Margido",28.0,3.1580636854714434,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+510,1,"Lang, Mr. Fang",26.0,4.05171190165724,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+511,1,"Daly, Mr. Eugene Patrick",29.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+512,0,"Webber, Mr. James",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+513,1,"McGough, Mr. James Robert",36.0,3.3064287218760624,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+514,1,"Rothschild, Mrs. Martin (Elizabeth L. Barrett)",54.0,4.100989104940769,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+515,0,"Coleff, Mr. Satio",24.0,2.139571923732859,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+516,0,"Walker, Mr. William Anderson",47.0,3.5559421706858756,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+517,1,"Lemore, Mrs. (Amelia Milley)",34.0,2.4423470353692043,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False
+518,0,"Ryan, Mr. Patrick",26.0,3.224857896545748,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+519,1,"Angle, Mrs. William A (Florence ""Mary"" Agnes Hughes)",36.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+520,0,"Pavlovic, Mr. Stefo",32.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+521,1,"Perreault, Miss. Anne",30.0,4.548599834499697,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+522,0,"Vovk, Mr. Janko",22.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+523,0,"Lahoud, Mr. Sarkis",26.0,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+524,1,"Hippach, Mrs. Louis Albert (Ida Sophia Fischer)",44.0,4.077184839375167,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+525,0,"Kassem, Mr. Fared",26.0,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+526,0,"Farrell, Mr. James",40.5,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+527,1,"Ridsdale, Miss. Lucy",50.0,2.4423470353692043,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+528,0,"Farthing, Mr. John",40.0,5.406181146423973,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+529,0,"Salonen, Mr. Johan Werner",39.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+530,0,"Hocking, Mr. Richard George",23.0,2.5257286443082556,4,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+531,1,"Quick, Miss. Phyllis May",2.0,3.295836866004329,3,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+532,0,"Toufik, Mr. Nakli",26.0,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+533,0,"Elias, Mr. Joseph Jr",17.0,2.1076888046179385,3,0,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+534,1,"Peter, Mrs. Catherine (Catherine Rizk)",31.0,3.1509523813392697,3,0,True,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+535,0,"Cacic, Miss. Marija",30.0,2.2682524139135403,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+536,1,"Hart, Miss. Eva Miriam",7.0,3.305053521109253,3,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+537,0,"Butt, Major. Archibald Willingham",45.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False
+538,1,"LeRoy, Miss. Bertha",30.0,4.676792929661059,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+539,0,"Risien, Mr. Samuel Beard",26.0,2.740840023925201,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+540,1,"Frolicher, Miss. Hedwig Margaritha",22.0,3.9219733362813143,3,0,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+541,1,"Crosby, Miss. Harriet R",36.0,4.276666119016055,3,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+542,0,"Andersson, Miss. Ingeborg Constanzia",9.0,3.4742929367327062,7,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+543,0,"Andersson, Miss. Sigrid Elisabeth",11.0,3.4742929367327062,7,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+544,1,"Beane, Mr. Edward",32.0,3.295836866004329,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+545,0,"Douglas, Mr. Walter Donald",50.0,4.676792929661059,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+546,0,"Nicholson, Mr. Arthur Ernest",64.0,3.295836866004329,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+547,1,"Beane, Mrs. Edward (Ethel Clarke)",19.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+548,1,"Padro y Manent, Mr. Julian",31.0,2.6988412620169004,1,1,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+549,0,"Goldsmith, Mr. Frank John",33.0,3.0692150503137943,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+550,1,"Davies, Master. John Morgan Jr",8.0,3.6309854756950335,3,0,False,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+551,1,"Thayer, Mr. John Borland Jr",17.0,4.717456363787216,3,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+552,0,"Sharp, Mr. Percival James R",27.0,3.295836866004329,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+553,0,"O'Brien, Mr. Timothy",26.0,2.17806441028492,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+554,1,"Leeni, Mr. Fahim (""Philip Zenni"")",22.0,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+555,1,"Ohman, Miss. Velin",22.0,2.1719067693519296,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+556,0,"Wright, Mr. George",62.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+557,1,"Duff Gordon, Lady. (Lucille Christiana Sutherland) (""Mrs Morgan"")",48.0,3.703768066607687,2,0,True,False,True,False,False,False,True,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+558,0,"Robbins, Mr. Victor",40.0,5.4316456135398825,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+559,1,"Taussig, Mrs. Emil (Tillie Mandelbaum)",39.0,4.390118804571218,3,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False
+560,1,"de Messemaeker, Mrs. Guillaume Joseph (Emma)",36.0,2.91235066461494,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+561,0,"Morrow, Mr. Thomas Rowan",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+562,0,"Sivic, Mr. Husein",40.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+563,0,"Norman, Mr. Robert Douglas",28.0,2.6741486494265287,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+564,0,"Simmons, Mr. John",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+565,0,"Meanwell, Miss. (Marion Ogden)",18.0,2.2027647577118348,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+566,0,"Davies, Mr. Alfred J",24.0,3.224857896545748,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+567,0,"Stoytcheff, Mr. Ilia",19.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+568,0,"Palsson, Mrs. Nils (Alma Cornelia Berglund)",29.0,3.0944457464900235,5,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+569,0,"Doharr, Mr. Tannous",26.0,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+570,1,"Jonsson, Mr. Carl",32.0,2.180891922715322,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+571,1,"Harris, Mr. George",62.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+572,1,"Appleton, Mrs. Edward Dale (Charlotte Lamson)",53.0,3.960416900617205,3,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+573,1,"Flynn, Mr. John Irwin (""Irving"")",36.0,3.3100867049215847,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+574,1,"Kelly, Miss. Mary",18.0,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+575,0,"Rush, Mr. Alfred George John",16.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+576,0,"Patchett, Mr. George",19.0,2.740840023925201,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+577,1,"Garside, Miss. Ethel",34.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+578,1,"Silvey, Mrs. William Baird (Alice Munger)",39.0,4.041295341132285,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False
+579,0,"Caram, Mrs. Joseph (Maria Elias)",31.0,2.738146075922933,2,0,True,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+580,1,"Jussila, Mr. Eiriik",32.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+581,1,"Christy, Miss. Julie Rachel",25.0,3.4339872044851463,3,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+582,1,"Thayer, Mrs. John Borland (Marian Longstreth Morris)",39.0,4.717456363787216,3,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+583,0,"Downton, Mr. William James",54.0,3.295836866004329,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+584,0,"Ross, Mr. John Hugo",36.0,3.716616209085536,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+585,0,"Paulner, Mr. Uscher",26.0,2.2734137156937657,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+586,1,"Taussig, Miss. Ruth",18.0,4.390118804571218,3,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False
+587,0,"Jarvis, Mr. John Denzil",47.0,2.772588722239781,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+588,1,"Frolicher-Stehli, Mr. Maxmillian",60.0,4.384523514872469,3,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+589,0,"Gilinski, Mr. Eliezer",22.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+590,0,"Murdlin, Mr. Joseph",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+591,0,"Rintamaki, Mr. Matti",35.0,2.094945728215801,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+592,1,"Stephenson, Mrs. Walter Bertram (Martha Eustis)",52.0,4.37281811610993,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+593,0,"Elsbury, Mr. William James",47.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+594,0,"Bourke, Miss. Mary",18.0,2.169053700369523,3,0,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+595,0,"Chapman, Mr. John Henry",37.0,3.295836866004329,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+596,0,"Van Impe, Mr. Jean Baptiste",36.0,3.224857896545748,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+597,1,"Leitch, Miss. Jessie Wills",24.0,3.5263605246161616,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+598,0,"Johnson, Mr. Alfred",49.0,0.0,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+599,0,"Boulos, Mr. Hanna",26.0,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+600,1,"Duff Gordon, Sir. Cosmo Edmund (""Mr Morgan"")",49.0,4.0592215752427645,2,0,False,True,True,False,False,False,True,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+601,1,"Jacobsohn, Mrs. Sidney Samuel (Amy Frances Christy)",24.0,3.332204510175204,4,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+602,0,"Slabenoff, Mr. Petco",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+603,0,"Harrington, Mr. Charles H",40.0,3.770459441106359,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+604,0,"Torber, Mr. Ernst William",44.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+605,1,"Homer, Mr. Harry (""Mr E Haven"")",35.0,3.3160025355989236,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+606,0,"Lindell, Mr. Edvard Bengtsson",36.0,2.806386101823072,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+607,0,"Karaic, Mr. Milan",30.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+608,1,"Daniel, Mr. Robert Williams",27.0,3.449987545831587,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+609,1,"Laroche, Mrs. Joseph (Juliette Marie Louise Lafargue)",22.0,3.7513658711253766,4,0,True,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+610,1,"Shutes, Miss. Elizabeth W",40.0,5.039951348430309,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+611,0,"Andersson, Mrs. Anders Johan (Alfrida Konstantia Brogren)",39.0,3.4742929367327062,7,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+612,0,"Jardin, Mr. Jose Neto",26.0,2.0856720914304723,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+613,1,"Murphy, Miss. Margaret Jane",18.0,2.803360380906535,2,0,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+614,0,"Horgan, Mr. John",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+615,0,"Brocklebank, Mr. William Alfred",35.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+616,1,"Herman, Miss. Alice",24.0,4.189654742026425,4,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+617,0,"Danbom, Mr. Ernst Gilbert",34.0,2.7343675094195836,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+618,0,"Lobb, Mrs. William Arthur (Cordelia K Stanlick)",26.0,2.8390784635086144,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+619,1,"Becker, Miss. Marion Louise",4.0,3.6888794541139363,4,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,True,False,False,False
+620,0,"Gavey, Mr. Lawrence",26.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+621,0,"Yasbeck, Mr. Antoni",27.0,2.737880811060884,2,0,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+622,1,"Kimball, Mr. Edwin Nelson Jr",42.0,3.9806942251907276,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+623,1,"Nakid, Mr. Sahid",20.0,2.817902613071225,3,0,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+624,0,"Hansen, Mr. Henry Damsgaard",21.0,2.180891922715322,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+625,0,"Bowen, Mr. David John ""Dai""",21.0,2.8390784635086144,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+626,0,"Sutton, Mr. Frederick",61.0,3.5061818266142577,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+627,0,"Kirkland, Rev. Charles Leonard",57.0,2.5915163848462583,1,1,False,True,False,False,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+628,1,"Longley, Miss. Gretchen Fiske",21.0,4.368919865004903,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+629,0,"Bostandyeff, Mr. Guentcho",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+630,0,"O'Connell, Mr. Patrick D",26.0,2.167143305297764,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+631,1,"Barkworth, Mr. Algernon Henry Wilson",80.0,3.4339872044851463,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+632,0,"Lundahl, Mr. Johan Svensson",51.0,2.086193694502369,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+633,1,"Stahelin-Maeglin, Dr. Max",32.0,3.449987545831587,1,1,False,True,True,False,False,False,True,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False
+634,0,"Parr, Mr. William Henry Marsh",40.0,0.0,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+635,0,"Skoog, Miss. Mabel",9.0,3.3638415951183864,6,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+636,1,"Davis, Miss. Mary",28.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+637,0,"Leinonen, Mr. Antti Gustaf",32.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+638,0,"Collyer, Mr. Harvey",31.0,3.305053521109253,3,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+639,0,"Panula, Mrs. Juha (Maria Emilia Ojala)",41.0,3.705920919968788,6,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+640,0,"Thorneycroft, Mr. Percival",26.0,2.8390784635086144,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+641,0,"Jensen, Mr. Hans Peder",20.0,2.180891922715322,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+642,1,"Sagesser, Mlle. Emma",24.0,4.252771798816619,1,1,True,False,True,False,False,False,True,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False
+643,0,"Skoog, Miss. Margit Elizabeth",2.0,3.3638415951183864,6,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+644,1,"Foo, Mr. Choong",26.0,4.05171190165724,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+645,1,"Baclini, Miss. Eugenie",0.75,3.0085645861193133,4,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+646,1,"Harper, Mr. Henry Sleeper",48.0,4.353230991152628,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+647,0,"Cor, Mr. Liudevit",19.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+648,1,"Simonius-Blumer, Col. Oberst Alfons",56.0,3.597312260588446,1,1,False,True,True,False,False,False,True,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False
+649,0,"Willey, Mr. Edward",26.0,2.145931282948669,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+650,1,"Stanley, Miss. Amy Zillah Elsie",23.0,2.145931282948669,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+651,0,"Mitkoff, Mr. Mito",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+652,1,"Doling, Miss. Elsie",18.0,3.1780538303479458,2,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+653,0,"Kalvik, Mr. Johannes Halvorsen",21.0,2.2442459824059346,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+654,1,"O'Leary, Miss. Hanora ""Norah""",18.0,2.17806441028492,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+655,0,"Hegarty, Miss. Hanora ""Nora""",18.0,2.0476928433652555,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+656,0,"Hickman, Mr. Leonard Mark",24.0,4.310799125385514,3,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+657,0,"Radeff, Mr. Alexander",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+658,0,"Bourke, Mrs. John (Catherine)",32.0,2.803360380906535,3,0,True,False,False,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+659,0,"Eitemiller, Mr. George Floyd",23.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+660,0,"Newell, Mr. Arthur Webster",58.0,4.738607824217808,3,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+661,1,"Frauenthal, Dr. Henry William",50.0,4.902678819257608,3,0,False,True,False,False,False,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+662,0,"Badt, Mr. Mohamed",40.0,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+663,0,"Colley, Mr. Edward Pomeroy",47.0,3.2804411805263554,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+664,0,"Coleff, Mr. Peju",36.0,2.139571923732859,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+665,1,"Lindqvist, Mr. Eino William",20.0,2.188856327665703,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+666,0,"Hickman, Mr. Lewis",32.0,4.310799125385514,3,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+667,0,"Butler, Mr. Reginald Fenton",25.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+668,0,"Rommetvedt, Mr. Knud Paust",26.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+669,0,"Cook, Mr. Jacob",43.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+670,1,"Taylor, Mrs. Elmer Zebley (Juliet Cummins Wright)",41.5,3.970291913552122,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+671,1,"Brown, Mrs. Thomas William Solomon (Elizabeth Catherine Ford)",40.0,3.6888794541139363,3,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+672,0,"Davidson, Mr. Thornton",31.0,3.970291913552122,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+673,0,"Mitchell, Mr. Henry Michael",70.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+674,1,"Wilhelms, Mr. Charles",31.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+675,0,"Watson, Mr. Ennis Hastings",31.0,0.0,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+676,0,"Edvardsson, Mr. Gustaf Hjalmar",18.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+677,0,"Sawyer, Mr. Frederick Charles",24.5,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+678,1,"Turja, Miss. Anna Sofia",18.0,2.3833998102837652,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+679,0,"Goodwin, Mrs. Frederick (Augusta Tyler)",43.0,3.8691155044168695,8,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+680,1,"Cardeza, Mr. Thomas Drake Martinez",36.0,6.240917354759096,2,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+681,0,"Peters, Miss. Katie",18.0,2.212386825075897,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+682,1,"Hassab, Mr. Hammad",27.0,4.353230991152628,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+683,0,"Olsvigen, Mr. Thor Anderson",20.0,2.3248357019288655,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+684,0,"Goodwin, Mr. Charles Edward",14.0,3.8691155044168695,8,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+685,0,"Brown, Mr. Thomas William Solomon",60.0,3.6888794541139363,3,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+686,0,"Laroche, Mr. Joseph Philippe Lemercier",25.0,3.7513658711253766,4,0,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+687,0,"Panula, Mr. Jaako Arnold",14.0,3.705920919968788,6,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+688,0,"Dakic, Mr. Branko",19.0,2.4133032309283076,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+689,0,"Fischer, Mr. Eberhard Thelander",18.0,2.174274334826008,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+690,1,"Madill, Miss. Georgette Alexandra",15.0,5.35817698994543,2,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+691,1,"Dick, Mr. Albert Adrian",31.0,4.060443010546419,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+692,1,"Karun, Miss. Manca",4.0,2.668387256845834,2,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+693,1,"Lam, Mr. Ali",26.0,4.05171190165724,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+694,0,"Saad, Mr. Khalil",25.0,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+695,0,"Weir, Col. John",60.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+696,0,"Chapman, Mr. Charles Henry",52.0,2.6741486494265287,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+697,0,"Kelly, Mr. James",44.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+698,1,"Mullens, Miss. Katherine ""Katie""",18.0,2.167143305297764,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+699,0,"Thayer, Mr. John Borland",49.0,4.717456363787216,3,0,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+700,0,"Humblen, Mr. Adolf Mathias Nicolai Olsen",42.0,2.157559320943788,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,True,False,False,False
+701,1,"Astor, Mrs. John Jacob (Madeleine Talmadge Force)",18.0,5.4316456135398825,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+702,1,"Silverthorne, Mr. Spencer Victor",35.0,3.3064287218760624,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+703,0,"Barbara, Miss. Saiide",18.0,2.737880811060884,2,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+704,0,"Gallagher, Mr. Martin",25.0,2.1681046787623672,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+705,0,"Hansen, Mr. Henrik Juul",26.0,2.180891922715322,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+706,0,"Morley, Mr. Henry Samuel (""Mr Henry Marshall"")",39.0,3.295836866004329,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+707,1,"Kelly, Mrs. Florence ""Fannie""",45.0,2.6741486494265287,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+708,1,"Calderhead, Mr. Edward Pennington",42.0,3.3064287218760624,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+709,1,"Cleaver, Miss. Alice",22.0,5.027492411162679,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+710,1,"Moubarek, Master. Halim Gonios (""William George"")",4.0,2.7878344138303452,3,0,False,True,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+711,1,"Mayne, Mlle. Berthe Antonine (""Mrs de Villiers"")",24.0,3.922056501139853,1,1,True,False,True,False,False,False,True,False,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False
+712,0,"Klaber, Mr. Herman",40.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+713,1,"Taylor, Mr. Elmer Zebley",48.0,3.970291913552122,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+714,0,"Larsson, Mr. August Viktor",29.0,2.3497835148230464,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+715,0,"Greenberg, Mr. Samuel",52.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+716,0,"Soholt, Mr. Peter Andreas Lauritz Andersen",19.0,2.157559320943788,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,True,False,False,False
+717,1,"Endres, Miss. Caroline Louise",38.0,5.4316456135398825,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False
+718,1,"Troutt, Miss. Edwina Celia ""Winnie""",27.0,2.4423470353692043,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False
+719,0,"McEvoy, Mr. Michael",26.0,2.803360380906535,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+720,0,"Johnson, Mr. Malkolm Joackim",33.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+721,1,"Harper, Miss. Annie Jessie ""Nina""",6.0,3.5263605246161616,2,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+722,0,"Jensen, Mr. Svend Lauritz",17.0,2.086193694502369,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+723,0,"Gillespie, Mr. William Henry",34.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+724,0,"Hodges, Mr. Henry Price",50.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+725,1,"Chambers, Mr. Norman Campbell",27.0,3.9908341858524357,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+726,0,"Oreskovic, Mr. Luka",20.0,2.2682524139135403,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+727,1,"Renouf, Mrs. Peter Henry (Lillian Jefferys)",30.0,3.091042453358316,4,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+728,1,"Mannion, Miss. Margareth",18.0,2.1676241075599285,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+729,0,"Bryhl, Mr. Kurt Arnold Gottfrid",25.0,3.295836866004329,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+730,0,"Ilmakangas, Miss. Pieta Sofia",25.0,2.188856327665703,2,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+731,1,"Allen, Miss. Elisabeth Walton",29.0,5.35817698994543,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+732,0,"Hassan, Mr. Houssein G N",11.0,2.9850504252071306,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+733,0,"Knight, Mr. Robert J",31.0,0.0,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+734,0,"Berriman, Mr. William John",23.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+735,0,"Troupiansky, Mr. Moses Aaron",23.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+736,0,"Williams, Mr. Leslie",28.5,2.8390784635086144,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+737,0,"Ford, Mrs. Edward (Margaret Ann Watson)",48.0,3.5660053559634015,5,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+738,1,"Lesurer, Mr. Gustave J",35.0,6.240917354759096,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+739,0,"Ivanoff, Mr. Kanio",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+740,0,"Nankoff, Mr. Minko",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+741,1,"Hawksford, Mr. Walter James",40.0,3.4339872044851463,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+742,0,"Cavendish, Mr. Tyrell William",36.0,4.380149874661021,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+743,1,"Ryerson, Miss. Susan Parker ""Suzette""",21.0,5.5735788721243535,5,0,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+744,0,"McNamee, Mr. Neal",24.0,2.8390784635086144,2,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+745,1,"Stranden, Mr. Juho",31.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+746,0,"Crosby, Capt. Edward Gifford",70.0,4.276666119016055,3,0,False,True,False,False,False,True,True,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False
+747,0,"Abbott, Mr. Rossmore Edward",16.0,3.056356895370426,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+748,1,"Sinkkonen, Miss. Anna",30.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+749,0,"Marvin, Mr. Daniel Warner",19.0,3.9908341858524357,2,0,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+750,0,"Connaghton, Mr. Michael",31.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+751,1,"Wells, Miss. Joan",4.0,3.1780538303479458,3,0,True,False,False,False,False,True,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+752,1,"Moor, Master. Meier",6.0,2.600836116795061,2,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,True,False,False,False,False
+753,0,"Vande Velde, Mr. Johannes Joseph",33.0,2.3513752571634776,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+754,0,"Jonkoff, Mr. Lalio",23.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+755,1,"Herman, Mrs. Samuel (Jane Laver)",48.0,4.189654742026425,4,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+756,1,"Hamalainen, Master. Viljo",0.67,2.740840023925201,3,0,False,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+757,0,"Carlsson, Mr. August Sigfrid",28.0,2.174274334826008,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+758,0,"Bailey, Mr. Percy Andrew",18.0,2.5257286443082556,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+759,0,"Theobald, Mr. Thomas Leonard",34.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+760,1,"Rothes, the Countess. of (Lucy Noel Martha Dyer-Edwards)",33.0,4.471638793363569,1,1,True,False,False,False,False,True,True,False,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False
+761,0,"Garfirth, Mr. John",26.0,2.740840023925201,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+762,0,"Nirva, Mr. Iisakki Antino Aijo",41.0,2.094945728215801,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+763,1,"Barah, Mr. Hanna Assi",20.0,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+764,1,"Carter, Mrs. William Ernest (Lucile Polk)",36.0,4.795790545596741,4,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+765,0,"Eklund, Mr. Hans Linus",16.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+766,1,"Hogeboom, Mrs. John C (Anna Andrews)",51.0,4.368919865004903,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+767,0,"Brewe, Dr. Arthur Jackson",49.0,3.703768066607687,1,1,False,True,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+768,0,"Mangan, Miss. Mary",30.5,2.169053700369523,1,1,True,False,False,False,True,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+769,0,"Moran, Mr. Daniel J",26.0,3.224857896545748,2,0,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+770,0,"Gronnestad, Mr. Daniel Danielsen",32.0,2.236712348843338,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+771,0,"Lievens, Mr. Rene Aime",24.0,2.3513752571634776,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+772,0,"Jensen, Mr. Niels Peder",48.0,2.180891922715322,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+773,0,"Mack, Mrs. (Mary)",57.0,2.4423470353692043,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False
+774,0,"Elias, Mr. Dibo",26.0,2.1071782966514356,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+775,1,"Hocking, Mrs. Elizabeth (Eliza Needs)",54.0,3.1780538303479458,5,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+776,0,"Myhrman, Mr. Pehr Fabian Oliver Malkolm",18.0,2.169053700369523,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+777,0,"Tobin, Mr. Roger",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,True,False,False,False
+778,1,"Emanuel, Miss. Virginia Ethel",5.0,2.600836116795061,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+779,0,"Kilgannon, Mr. Thomas J",26.0,2.1676241075599285,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+780,1,"Robert, Mrs. Edward Scott (Elisabeth Walton McMillan)",43.0,5.35817698994543,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+781,1,"Ayoub, Miss. Banoura",13.0,2.1076888046179385,1,1,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+782,1,"Dick, Mrs. Albert Adrian (Vera Gillespie)",17.0,4.060443010546419,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+783,0,"Long, Mr. Milton Clyde",29.0,3.4339872044851463,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False,False
+784,0,"Johnston, Mr. Andrew G",26.0,3.196630215920881,4,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+785,0,"Ali, Mr. William",25.0,2.0856720914304723,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+786,0,"Harmer, Mr. Abraham (David Lishin)",25.0,2.1102132003465894,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+787,1,"Sjoblom, Miss. Anna Sofia",18.0,2.139571923732859,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+788,0,"Rice, Master. George Hugh",8.0,3.405355391810819,6,0,False,True,False,False,True,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+789,1,"Dean, Master. Bertram Vere",1.0,3.0715352369694915,4,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+790,0,"Guggenheim, Mr. Benjamin",46.0,4.384523514872469,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+791,0,"Keane, Mr. Andrew ""Andy""",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+792,0,"Gaskell, Mr. Alfred",16.0,3.295836866004329,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+793,0,"Sage, Miss. Stella Anna",18.0,4.256321678298823,11,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+794,0,"Hoyt, Mr. William Fisher",40.0,3.4561841799918147,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+795,0,"Dantcheff, Mr. Ristiu",25.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+796,0,"Otter, Mr. Richard",39.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+797,1,"Leader, Dr. Alice (Farnham)",49.0,3.2932111997353943,1,1,True,False,False,False,False,True,True,False,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False
+798,1,"Osman, Mrs. Mara",31.0,2.270402752283094,1,1,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+799,0,"Ibrahim Shawah, Mr. Yousseff",30.0,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+800,0,"Van Impe, Mrs. Jean Baptiste (Rosalie Paula Govaert)",30.0,3.224857896545748,3,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+801,0,"Ponesell, Mr. Martin",34.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+802,1,"Collyer, Mrs. Harvey (Charlotte Annie Tate)",31.0,3.305053521109253,3,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+803,1,"Carter, Master. William Thornton II",11.0,4.795790545596741,4,0,False,True,False,False,False,True,True,False,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False
+804,1,"Thomas, Master. Assad Alexander",0.42,2.2530481500547457,2,0,False,True,True,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+805,1,"Hedman, Mr. Oskar Arvid",27.0,2.076311648670908,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+806,0,"Johansson, Mr. Karl Johan",31.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+807,0,"Andrews, Mr. Thomas Jr",39.0,0.0,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+808,0,"Pettersson, Miss. Ellen Natalia",18.0,2.1719067693519296,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+809,0,"Meyer, Mr. August",39.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+810,1,"Chambers, Mrs. Norman Campbell (Bertha Griggs)",33.0,3.9908341858524357,2,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,True,False,False,False,False
+811,0,"Alexander, Mr. William",26.0,2.184645795129359,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+812,0,"Lester, Mr. James",39.0,3.224857896545748,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+813,0,"Slemen, Mr. Richard James",35.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+814,0,"Andersson, Miss. Ebba Iris Alfrida",6.0,3.4742929367327062,7,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+815,0,"Tomlin, Mr. Ernest Portage",30.5,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+816,0,"Fry, Mr. Richard",40.0,0.0,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+817,0,"Heininen, Miss. Wendla Maria",23.0,2.188856327665703,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+818,0,"Mallet, Mr. Albert",31.0,3.637696679934592,3,0,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+819,0,"Holm, Mr. John Fredrik Alexander",43.0,2.0082140323914683,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+820,0,"Skoog, Master. Karl Thorsten",10.0,3.3638415951183864,6,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+821,1,"Hays, Mrs. Charles Melville (Clara Jennings Gregg)",52.0,4.548599834499697,3,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+822,1,"Lulic, Mr. Nikola",27.0,2.2682524139135403,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+823,0,"Reuchlin, Jonkheer. John George",38.0,0.0,1,1,False,True,False,False,False,True,True,False,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+824,1,"Moor, Mrs. (Beila)",27.0,2.600836116795061,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,False
+825,0,"Panula, Master. Urho Abraham",2.0,3.705920919968788,6,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+826,0,"Flynn, Mr. John",26.0,2.0731719286662407,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+827,0,"Lam, Mr. Len",26.0,4.05171190165724,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+828,1,"Mallet, Master. Andre",1.0,3.637696679934592,3,0,False,True,True,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+829,1,"McCormack, Mr. Thomas Joseph",26.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+830,1,"Stone, Mrs. George Nelson (Martha Evelyn)",62.0,4.394449154672439,1,1,True,False,False,True,False,False,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False
+831,1,"Yasbeck, Mrs. Antoni (Selini Alexander)",15.0,2.737880811060884,2,0,True,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+832,1,"Richards, Master. George Sibley",0.83,2.9831534913471307,3,0,False,True,False,False,False,True,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+833,0,"Saad, Mr. Amin",26.0,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+834,0,"Augustsson, Mr. Albert",23.0,2.180891922715322,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+835,0,"Allum, Mr. Owen George",18.0,2.2300144001592104,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+836,1,"Compton, Miss. Sara Rebecca",39.0,4.432699549165613,3,0,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,True,False,False,False,False
+837,0,"Pasic, Mr. Jakob",21.0,2.2682524139135403,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+838,0,"Sirota, Mr. Maurice",26.0,2.2027647577118348,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+839,1,"Chip, Mr. Chang",32.0,4.05171190165724,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+840,1,"Marechal, Mr. Pierre",40.0,3.4242626545931514,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+841,0,"Alhomaki, Mr. Ilmari Rudolf",20.0,2.188856327665703,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+842,0,"Mudd, Mr. Thomas Charles",16.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+843,1,"Serepeca, Miss. Augusta",30.0,3.4657359027997265,1,1,True,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+844,0,"Lemberopolous, Mr. Peter L",34.5,2.006534770871748,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+845,0,"Culumovic, Mr. Jeso",17.0,2.2682524139135403,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+846,0,"Abbing, Mr. Anthony",42.0,2.145931282948669,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+847,0,"Sage, Mr. Douglas Bullen",26.0,4.256321678298823,11,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+848,0,"Markoff, Mr. Marin",35.0,2.1855792552411137,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+849,0,"Harper, Rev. John",28.0,3.5263605246161616,2,0,False,True,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+850,1,"Goldenberg, Mrs. Samuel L (Edwiga Grabowska)",41.5,4.500966778400217,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+851,0,"Andersson, Master. Sigvard Harald Elias",4.0,3.4742929367327062,7,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+852,0,"Svensson, Mr. Johan",74.0,2.1719067693519296,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+853,0,"Boulos, Miss. Nourelain",9.0,2.7878344138303452,3,0,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+854,1,"Lines, Miss. Mary Conover",16.0,3.6988297849671046,2,0,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False,False
+855,0,"Carter, Mrs. Ernest Courtenay (Lilian Hughes)",44.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+856,1,"Aks, Mrs. Sam (Leah Rosen)",18.0,2.336986519711378,2,0,True,False,False,False,False,True,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+857,1,"Wick, Mrs. George Dennick (Mary Hitchcock)",45.0,5.11118445372147,3,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+858,1,"Daly, Mr. Peter Denis ",51.0,3.3160025355989236,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,False,False,False,True,False,False,False,False
+859,1,"Baclini, Mrs. Solomon (Latifa Qurban)",24.0,3.0085645861193133,4,0,True,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+860,0,"Razi, Mr. Raihed",26.0,2.1076888046179385,1,1,False,True,True,False,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+861,0,"Hansen, Mr. Claus Peter",41.0,2.7152442616824506,3,0,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+862,0,"Giles, Mr. Frederick Edward",21.0,2.5257286443082556,2,0,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+863,1,"Swift, Mrs. Frederick Joel (Margaret Welles Barron)",48.0,3.2932111997353943,1,1,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+864,0,"Sage, Miss. Dorothy Edith ""Dolly""",18.0,4.256321678298823,11,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+865,0,"Gill, Mr. John William",24.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+866,1,"Bystrom, Mrs. (Karolina)",42.0,2.6390573296152584,1,1,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+867,1,"Duran y More, Miss. Asuncion",27.0,2.698558631668595,2,0,True,False,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+868,0,"Roebling, Mr. Washington Augustus II",31.0,3.941500250945973,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False
+869,0,"van Melkebeke, Mr. Philemon",26.0,2.3513752571634776,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+870,1,"Johnson, Master. Harold Theodor",4.0,2.495953738718064,3,0,False,True,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,True
+871,0,"Balkic, Mr. Cerin",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+872,1,"Beckwith, Mrs. Richard Leonard (Sallie Monypeny)",47.0,3.9806942251907276,3,0,True,False,False,False,False,True,True,False,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False
+873,0,"Carlsson, Mr. Frans Olof",33.0,1.791759469228055,1,1,False,True,False,False,False,True,True,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False
+874,0,"Vander Cruyssen, Mr. Victor",47.0,2.302585092994046,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+875,1,"Abelson, Mrs. Samuel (Hannah Wizosky)",28.0,3.2188758248682006,2,0,True,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+876,1,"Najib, Miss. Adele Kiamie ""Jane""",15.0,2.1071782966514356,1,1,True,False,True,False,False,False,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+877,0,"Gustafsson, Mr. Alfred Ossian",20.0,2.3837779082709782,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+878,0,"Petroff, Mr. Nedelio",19.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+879,0,"Laleff, Mr. Kristo",26.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+880,1,"Potter, Mrs. Thomas Jr (Lily Alexenia Wilson)",56.0,4.432699549165613,2,0,True,False,True,False,False,False,True,False,False,False,False,False,True,False,False,False,True,False,False,False,False,False,False
+881,1,"Shelley, Mrs. William (Imanita Parrish Hall)",25.0,3.295836866004329,2,0,True,False,False,False,False,True,False,True,False,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+882,0,"Markun, Mr. Johann",33.0,2.1855792552411137,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+883,0,"Dahlberg, Miss. Gerda Ulrika",22.0,2.4437981558973862,1,1,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+884,0,"Banfield, Mr. Frederick James",28.0,2.4423470353692043,1,1,False,True,False,False,False,True,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+885,0,"Sutehall, Mr. Henry Jr",25.0,2.0856720914304723,1,1,False,True,False,False,False,True,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
+886,0,"Rice, Mrs. William (Margaret Norton)",39.0,3.405355391810819,6,0,True,False,False,False,True,False,False,False,True,False,False,False,True,False,False,False,False,False,False,False,False,False,True
+887,0,"Montvila, Rev. Juozas",27.0,2.6390573296152584,1,1,False,True,False,False,False,True,False,True,False,False,False,False,False,True,False,False,False,False,False,False,False,False,True
+888,1,"Graham, Miss. Margaret Edith",19.0,3.4339872044851463,1,1,True,False,False,False,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False,False
+889,0,"Johnston, Miss. Catherine Helen ""Carrie""",18.0,3.196630215920881,4,0,True,False,False,False,False,True,False,False,True,False,True,False,False,False,False,False,False,False,False,False,False,False,True
+890,1,"Behr, Mr. Karl Howell",26.0,3.4339872044851463,1,1,False,True,True,False,False,False,True,False,False,False,False,True,False,False,False,False,True,False,False,False,False,False,False
+891,0,"Dooley, Mr. Patrick",32.0,2.169053700369523,1,1,False,True,False,False,True,False,False,False,True,False,False,True,False,False,False,False,False,False,False,False,False,False,True
